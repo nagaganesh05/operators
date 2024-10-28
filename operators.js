@@ -79,6 +79,15 @@ let totalAmount = parseInt(prompt("Enter total amount:"))
 let discount=(totalAmount>150)?totalAmount*0.85 : totalAmount
 console.log(discount)
 
+// 7
+var sentence = prompt("Enter a sentence: ");
+console.log(sentence);
+var reverse = sentence.split('').reverse().join('');
+var b = reverse.length > 15 ? "reversed sentence has more than 15 charcters" : "not having more than 15";
+var originalorReverse = sentence.length>20 || reverse.lenght>20 ? "original or reverse sentence having length more than 20" : "not having";
+console.log(b);
+console.log(originalorReverse);
+
 // 8
 var number1 = parseFloat(prompt("Enter the number1: "));
 var number2 = parseFloat(prompt("Enter the number2: "));
